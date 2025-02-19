@@ -43,6 +43,32 @@ main {
     font-size: 18px;
 }
 
+main .gallery {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+main .gallery .card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+}
+main .gallery .card img {
+    width: 100%;
+    border-radius: 10px;
+}
+main .gallery .card h3 {
+    margin: 10px 0 5px;
+}
+main .gallery .card p {
+    color: #555;
+}
+
 footer {
     background: linear-gradient(to right, #dee2e6, #ced4da);
     padding: 15px;
