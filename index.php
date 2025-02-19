@@ -1,7 +1,6 @@
 <?php 
 
 $uri = parse_url($_SERVER['REQUEST_URI'])["path"];
-$params = parse_url($_SERVER['REQUEST_URI'])["query"] ?? "";
 
 $routes = [
     "/" => "home.php",
