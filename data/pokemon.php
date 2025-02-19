@@ -1,6 +1,11 @@
 <?php
 $pokemonList = [
-    ["name" => "Pikachu", "type" => "Electric", "rarity" => "Common", "image" => "https://img.pokemondb.net/artwork/large/pikachu.jpg"],
+    [
+        "name" => "Pikachu", 
+        "type" => "Electric", 
+        "rarity" => "Common", 
+        "image" => "https://img.pokemondb.net/artwork/large/pikachu.jpg"
+    ],
     ["name" => "Charizard", "type" => "Fire/Flying", "rarity" => "Rare", "image" => "https://img.pokemondb.net/artwork/large/charizard.jpg"],
     ["name" => "Bulbasaur", "type" => "Grass/Poison", "rarity" => "Common", "image" => "https://img.pokemondb.net/artwork/large/bulbasaur.jpg"],
     ["name" => "Squirtle", "type" => "Water", "rarity" => "Common", "image" => "https://img.pokemondb.net/artwork/large/squirtle.jpg"],
