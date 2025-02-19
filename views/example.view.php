@@ -2,11 +2,11 @@
 <?php require 'partials/nav.php'; ?>
 
 <header>
-    <h1>Home</h1>
+    <h1>Example</h1>
 </header>
 
 <main>
-    <p>This is the Home page</p>
+    <p>This is the Example page</p>
 </main>
 
 <?php require 'partials/footer.php'; ?>
