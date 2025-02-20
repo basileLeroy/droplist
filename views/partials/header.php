@@ -7,4 +7,3 @@
     <link rel="stylesheet" href="/resources/css/app.css">
 </head>
 <body>
-    

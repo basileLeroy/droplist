@@ -3,9 +3,9 @@
 $uri = parse_url($_SERVER['REQUEST_URI'])["path"];
 
 $routes = [
-    "/" => "home.php",
-    "/contact" => "contact.php",
-    "/example" => "example.php",
+    "/" => "app/controller/home.php",
+    "/contact" => "app/controller/contact.php",
+    "/example" => "app/controller/example.php",
 ];
 
 if(array_key_exists($uri, $routes)) {
