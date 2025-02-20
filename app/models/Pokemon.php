@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * Class Pokemon
+ *
+ * Represents a Pokemon with name, type, rarity, and an image.
+ */
 class Pokemon
 {
     // properties
@@ -8,8 +13,12 @@ class Pokemon
     public string $rarity;
     public string $image;
 
-
-    //__constructor
+    /**
+     * @param string $name The name of the Pokemon.
+     * @param string $type The type of the Pokemon.
+     * @param string $rarity The rarity level of the Pokemon.
+     * @param string $image The URL or path of the Pokemon's image.
+     */
     public function __construct(string $name, string $type, string $rarity, string $image)
     {
         $this->name = $name;

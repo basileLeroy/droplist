@@ -1,7 +1,9 @@
 <?php
 
+// Logic here!
+
+// page title
 $title = "Contact";
 
-// logic ici!
-
+// load view
 require_once "views/contact.view.php";
