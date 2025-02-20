@@ -11,5 +11,7 @@ $routes = [
 if(array_key_exists($uri, $routes)) {
     require $routes[$uri];
 } else {
-    require 'error.php';
+
+    http_response_code(404);
+    require "app/controller/error.php";
 }
