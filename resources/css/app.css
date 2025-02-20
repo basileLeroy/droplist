@@ -46,6 +46,7 @@ main {
 main .gallery {
     width: 100%;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
     margin-bottom: 50px;
@@ -66,7 +67,7 @@ main .gallery .card.rare {
                 radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
 }
 main .gallery .card img {
-    width: 100%;
+    height: 200px;
     border-radius: 10px;
 }
 main .gallery .card h3 {
